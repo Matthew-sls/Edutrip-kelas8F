@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bar Navigasi</title>
+</head>
+<body style="background-color: rgb(163, 163, 244);">
+    <header>
+        <a href="index.html">Home</a>
+        <a href="Reli.html">Reli</a>
+        <a href="ppkn.html">PPKN</a>
+        <a href="bindo.html">Bindo</a>
+        <a href="English.html">English</a>
+        <a href="IPS.html">IPS</a>
+        <a href="Mandarin.html">Mandarin</a>
+    </header>
+    <h1>Ini adalah halaman IPS</h1>
+    <table>
+        <tr>
+            <p>Dalam pelajaran IPS</p>
+        </tr>
+        <tr>
+            <img src="bindo.jpg" alt="Its a picture of history" width=" 120" height="120" >
+        </tr>
+    </table>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Bar navigasi</title>
+
+        <style>
+            body {
+                font-family:Arial, Helvetica, sans-serif ;
+                margin: 0;
+                padding: 0;
+                background-color: aqua;
+            }
+
+            header {
+                background-color: black;
+                padding: 10px 0;
+                text-align: center;
+            }
+
+            header a {
+                color: white;
+                text-decoration: none;
+                margin: 0 15px;
+                font-size: 18px;
+                transition: color 0.3s ease;
+            }
+
+            header a:hover{
+                color: #00bcd4;
+            }
+
+            h1 {
+                text-align: center;
+                margin-top: 50px;
+                font-size: 36px;
+                color: #333;
+            }
+        </style>
+    </head>
+</body>
+</html>
